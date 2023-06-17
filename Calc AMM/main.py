@@ -30,6 +30,7 @@ def sort_num(user_inputnum):
     return sorted(user_inputnum)
 
 def calc_median_num(user_inputnum):
+    user_inputnum = sorted(user_inputnum)
     if len(user_inputnum) % 2 == 1:
         median = user_inputnum[int((len(user_inputnum)-1)/2)]
     else:
