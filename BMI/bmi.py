@@ -17,4 +17,4 @@ def calculate_bmi(height, weight):
     print("BMI = " + str(BMI))
     print("You are : " + BMI_Class)
 
-calculate_bmi(weight=47, height=1.73)
+calculate_bmi(weight=57, height=1.73)
